@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lillian Gillian's Flower Shop</title>
+</head>
+<body class="bg">
+    <header class="topnav">
+        <a href="index.html" class="active"><img src="Images/Logo.png" width="200vw"></a>
+        <div id="mylinks">
+            <a href="bouquets.html">Our Bouquets</a>
+            <a href="plants.html">Our Plants</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="menuFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </header>
+    <main>
+        <div class="fling-minislide">
+            <img src="Images/florist.jpeg" alt="A photograph of the entrance to Lillian Gillian's Flower Shop"/>
+            <img src="Images/plant_5.jpeg" alt="A photograph of leaves."/>
+            <img src="Images/bouquet_1.jpeg" alt="A photograph of a flower bouquet."/>
+          </div>
+        <h1>Welcome to Lillian Gillian's Flower Shop!</h1>
+        <br>
+        <p>Lillian Gillian's Flower Shop has been providing floristry products and services to the Wigan area for over 14 years - from Bridal Bouquets to plants you can be proud to put in your front garden! Here at Lillian Gillian's Flower Shop we pride ourselves on giving the best possible services to our customers, so why not pop in? We're sure to have something that will make you smile!</p>
+        <br>
+        <br>
+        <div class="cimgc">
+            <img class="cimg" src="Images/bouquet_5.jpeg" alt="A bouquet of colourful lilies on a white background">
+        </div>
+    </main>
+    <footer id="ft">
+        <div id="c">
+            <a href="#facebook"><img src="Social Media Icons/Facebook.svg" width="40vw"></a>
+            <a href="#twitter"><img src="Social Media Icons/Twitter.svg" width="40vw"></a>
+            <a href="#instagram"><img src="Social Media Icons/Instagram.svg" width="40vw"></a>
+            <a href="#linkedin"><img src="Social Media Icons/Linkedin.svg" width="40vw"></a>
+        </div>
+    </footer>
+</body>
+<script>
+    function menuFunction() {
+        var x = document.getElementById("mylinks");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+</script>
+</html>

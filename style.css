@@ -1,0 +1,134 @@
+body {
+    background-color: #f3f3f3;
+    margin: 0;
+}
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+    color: darkolivegreen;
+}
+p {
+    font-family: Verdana;
+    margin-left: 7%;
+    margin-right: 7%;
+    font-size: 1em;
+    text-align: center;
+    color: darkgreen;
+}
+main {
+    border: 5px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    margin-top: 2%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    object-fit: contain;
+}
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: #04AA6D;
+}
+#ft {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+#c {
+    display: flex;
+    justify-items: space-around;
+}
+.bg {
+    background-image: url(Website\ Background/LGillian.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+}
+.topnav {
+    overflow: hidden;
+    position: relative;
+    background-color: #839905;
+}
+.topnav #mylinks {
+    display: none;
+}
+.topnav a {
+    color: rgb(234, 255, 115);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+.topnav a.icon {
+    background:  #04AA6D;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: fit-content;
+    align-content: center;
+}
+.topnav a:hover {
+    background-color: rgb(11, 83, 23);
+    color: black;
+}
+.active {
+    background-color: #04AA6D;
+    color: white;
+}
+.fling-minislide {
+    border-radius: 10px;
+    width:100%; 
+    height:25vw; 
+    overflow:hidden; 
+    position:relative;
+}
+.fling-minislide img { 
+    position:absolute; 
+    animation:fling-minislide 
+    30s infinite; 
+    opacity:0; 
+    width: 100%; 
+    height:25vw;
+}
+.pcont {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: space-around;
+    object-fit: contain;
+    text-wrap: wrap;
+}
+.img {
+    width: 21.164021164021165vh;
+    height: 10.416666666666666vw;
+    max-width: 100%;
+    max-height: 100%;
+    flex: 1;
+    object-fit: contain;
+    margin: 10px;
+}
+.cimgc {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    object-fit: contain;
+}
+.cimg {
+    height: 40vh;
+    width: 60vh;
+    display: flex;
+    object-fit: contain;
+}
+@keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}}
+.fling-minislide img:nth-child(1){animation-delay:0s;}
+.fling-minislide img:nth-child(2){animation-delay:10s;}
+.fling-minislide img:nth-child(3){animation-delay:20s;}

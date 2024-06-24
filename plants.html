@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Plants</title>
+</head>
+<body class="bg">
+    <header class="topnav">
+        <a href="index.html" class="active"><img src="Images/Logo.png" width="200vw"></a>
+        <div id="mylinks">
+            <a href="bouquets.html">Our Bouquets</a>
+            <a href="plants.html">Our Plants</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="menuFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </header>
+    <main>
+        <h1>Our Plants</h1>
+        <br>
+        <p>Here at Lillian Gillian's Plant Shop, we know how much the right plant in the right place can really make the modern home look that little more magical! Please see below for a sample selection of plants currently in stock.</p>
+        <br>
+        <div class="pcont">
+            <div>
+                <img src="Images/plant_2.jpeg" class="img" alt="A rubber fig">
+                <p>Rubber Fig</p>
+                <p>£10.00</p>
+            </div>
+            <div>
+                <img src="Images/plant_3.jpeg" class="img" alt="A potted dracaena trifasciata">
+                <p>Dracaena</p>
+                <p>£5.00</p>
+            </div>
+                <div>
+                <img src="Images/plant_1.jpeg" class="img" alt="Monstera Deliciosa leaves">
+                <p>Monstera</p>
+                <p>£10.00</p>
+            </div>
+        </div>
+        <br>
+        <p>For advice related to placing and caring for your plants, please visit us in store or <a href="contact.html">get in touch.</a></p>
+        <div class="cimgc">
+            <img class="cimg" src="Images/bouquet_5.jpeg" alt="A bouquet of colourful lilies on a white background">
+        </div>
+    </main>
+    <footer id="ft">
+        <div id="c">
+            <a href="#facebook"><img src="Social Media Icons/Facebook.svg" width="40vw"></a>
+            <a href="#twitter"><img src="Social Media Icons/Twitter.svg" width="40vw"></a>
+            <a href="#instagram"><img src="Social Media Icons/Instagram.svg" width="40vw"></a>
+            <a href="#linkedin"><img src="Social Media Icons/Linkedin.svg" width="40vw"></a>
+        </div>
+    </footer>
+</body>
+<script>
+    function menuFunction() {
+        var x = document.getElementById("mylinks");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+</script>
+</html>

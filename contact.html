@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+</head>
+<body class="bg">
+    <header class="topnav">
+        <a href="index.html" class="active"><img src="Images/Logo.png" width="200vw"></a>
+        <div id="mylinks">
+            <a href="bouquets.html">Our Bouquets</a>
+            <a href="plants.html">Our Plants</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="menuFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </header>
+    <main>
+        <h1>Contact Us</h1>
+        <br>
+        <p>Please get in touch using the details below. We look forward to hearing from you!</p>
+        <br>
+        <p>Email: <a href="mailto:LillianGilliansFlowerShop@Flowershop.co.uk
+            &subject= Enquiry">Click here to send us an email!</a></p>
+        <p>Telephone: <a href="tel:+4401204361616">01204361616</a></p>
+        <div class="cimgc">
+            <img class="cimg" src="Images/bouquet_5.jpeg" alt="A bouquet of colourful lilies on a white background">
+        </div>
+    </main>
+    <footer id="ft">
+        <div id="c">
+            <a href="#facebook"><img src="Social Media Icons/Facebook.svg" width="40vw"></a>
+            <a href="#twitter"><img src="Social Media Icons/Twitter.svg" width="40vw"></a>
+            <a href="#instagram"><img src="Social Media Icons/Instagram.svg" width="40vw"></a>
+            <a href="#linkedin"><img src="Social Media Icons/Linkedin.svg" width="40vw"></a>
+        </div>
+    </footer>
+</body>
+<script>
+    function menuFunction() {
+        var x = document.getElementById("mylinks");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+</script>
+</html>
