@@ -125,6 +125,8 @@ footer {
 .cimg {
     height: 40vh;
     width: 60vh;
+    max-height: 100%;
+    max-width: 100%;
     display: flex;
     object-fit: contain;
 }
